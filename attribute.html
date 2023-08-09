@@ -9,33 +9,52 @@
     <h2>TYPES OF ATTRIBUTES</h2>
     <fieldset>
         <legend>Fill The Form</legend>
-        <form action="" method="get">
-
-            <label for="uname">Username</label>
-            <input type="text" name="" id="uname" placeholder="Enter Username">
-
-            <label for="pw">Password</label>
-            <input type="password" name="password" id="pw" placeholder="Enter Password">
-
-            <input type="submit">
-                <br><br><br>
-            <label for="fname">firstName</label>
-            <input type="text" name="fname" id="">
+        <form action="./submitted.html" method="post">
+                
+            <label for="fname">FirstName</label>
+            <input type="text" name="fname" id="fname">
             <br><br>
-            <label for="lname">lastName</label>
-            <input type="text" name="lname" id="">
+
+            <label for="lname">LastName</label>
+            <input type="text" name="lname" id="lname">
             <br><br>
-            <h4>Gender</h4>
+
+            <label for="emailid">Email</label>
+            <input type="email" name="mail" id="emailid">
+            <br><br>
+
+            <label for="num">Contact Number</label>
+            <input type="text" name="contactnumber" id="num">
+            <br><br>
+
+            <p><b>Gender</b></p>
             <br>
+
             <label for="male">Male</label>
-            <input type="radio">
+            <input type="radio" name="gender">
+
             <label for="female">Female</label>
-            <input type="radio">
-            <input type="submit">
+            <input type="radio" name="gender">
 
+            <label for="other">Other</label>
+            <input type="radio" name="gender"><br><br>
 
+            <p><b>Skills</b></p>
 
+            <label for="">Python</label>
+            <input type="checkbox" name="python">
 
+            <label for="">Java</label>
+            <input type="checkbox" name="java">
+
+            <label for="">javaScript</label>
+            <input type="checkbox" name="js">
+
+            <label for="">Go lang</label>
+            <input type="checkbox" name="gl"><br><br>
+
+            <input type="reset">
+            <input type="submit" value="Register">
         </form>
     </fieldset>
 </body>
