@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title></title>
+    <title>Dropdown</title>
 </head>
 <body>
+    <!-- The <select> element is used to create a drop-down list. -->
     <select name="" id="" size="20" multiple>
+    <!-- The name attribute is needed to reference the form data after the form is submitted -->
+    <!-- The id attribute is needed to associate the drop-down list with a label. -->
+    <!-- Size: defines the number of visible options in a drop-down list -->
+    <!-- Multiple: specifies that multiple options can be selected at once -->
 
         <optgroup label="North city">
+            <!-- The <optgroup> tag is used to group related options in a <select> element (drop-down list). -->
+            <!-- The <option> tags inside the <select> element define the available options in the drop-down list. -->
             <option value="city" label="rnc">Ranchi</option>
+            <!-- Label: specifies a label for an option-group -->
             <option value="city">Jamshedpur</option>
             <option value="city">Dhanbad</option>
             <option value="city">Patna</option>
             <option value="city">Prayag Raj</option>
-            <option value="city" disabled>Shimla</option>    
+            <option value="city" disabled>Shimla</option>  
+              <!--disabled: specifies that a drop-down list should be disabled -->
         </optgroup>
-
 
         <optgroup label="South City">
             <option value="city" label="hyd" selected>Hyderabad</option>
