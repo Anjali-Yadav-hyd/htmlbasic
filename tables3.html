@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table One</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        table, tr, td, th{
+            border: 1px solid black;
+            border-spacing: 2px;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        th, td{
+            height: 50px;
+            vertical-align: top;
+            vertical-align: bottom;
+        }
+        th, td{
+            text-align: left;
+            text-align: center;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>List of Products</caption>
+        <thead>
+            <tr>
+                <th>Serial No.</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>    
+        </thead>
+        <thead>
+            <tr>
+                <td>1</td>
+                <td>Samsung</td>
+                <td>60000</td>
+            </tr>    
+        </thead>
+        <thead>
+            <tr>
+                <td>2</td>
+                <td>OnePlus</td>
+                <td>35000</td>
+            </tr>    
+        </thead>
+        <thead>
+            <tr>
+                <td>3</td>
+                <td>Vivo</td>
+                <td>25000</td>
+            </tr>    
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>120000</td>
+            </tr>    
+        </tfoot>
+    </table>
+</body>
+</html>
