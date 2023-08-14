@@ -1,0 +1,17 @@
+div{
+    margin-top: 5px;
+}
+
+h1{
+    /* top left&right bottom */
+    padding: 10px 10px 10px;
+}
+
+div p{
+    border: 2px solid yellow;
+    padding: 10px;              /*  padding from all sides */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
