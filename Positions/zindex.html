@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>z index</title>
+    <style>
+        div{
+            margin: 20px;
+            padding: 10px;
+            border: 3px solid blue;
+            background-color: aquamarine;
+        }
+        div:nth-child(1){
+            position: absolute;
+            top: 0px;
+            z-index: -1;
+        }
+        div:nth-child(1){
+            position: absolute;
+            top: 0px;
+            z-index: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div>one</div>
+    <div>two</div>
+    <div>three</div>
+    <div>fou</div>
+</body>
+</html>
