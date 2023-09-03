@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 653px;
+    text-align: center;
+}
+.grid-container div{
+    background-color: white;
+}
+
+#logo{
+    padding: 20px;
+    margin-left: 120px;
+    margin-top: 2px;
+}
+
+#signin{
+    margin-left: 120px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1{
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 35px;
+    font-weight: lighter;
+    color: rgb(32, 31, 31);
+}
+
+p{
+    padding: 20px;
+    font-size: 14px;
+    color: grey;
+}
+#btn{
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(42, 42, 207);
+    color: white;
+    width: 220px;
+    height: 25px;
+}
+#btn span{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#btn:hover{
+    background-color: rgb(47, 47, 139);
+}
+#home img{
+    height: 100%;
+    width: 660px;
+    float: right;
+}
