@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>getElementsByClassName</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li class="list1">ListOne</li>
+            <li>ListTwo</li>
+            <li>ListThree</li>
+            <li>ListFour</li>
+        </ul>
+    </div>
+    <script>
+        var v = document.getElementsByClassName("list1")
+        console.log(v)
+
+        v[0].textContent = "NameOne"
+        console.log(v[0])
+
+        v[0].style.fontSize="larger"
+        v[0].style.fontFamily="Verdana"
+        v[0].style.backgroundColor="lightgreen"
+        v[0].style.border="2px solid black"
+        v[0].style.padding="15px"
+
+        for(var i=0; i<=v.length; i++){
+            v[i].style.fontFamily="Cursive"
+        }
+    </script>
+</body>
+</html>

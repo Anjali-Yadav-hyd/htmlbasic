@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>getElementsByClassName</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li class="list1">ListOne</li>
+            <li>ListTwo</li>
+            <li>ListThree</li>
+            <li>ListFour</li>
+        </ul>
+    </div>
+    <script>
+        var v = document.getElementsByTagName("li")
+        console.log(v)
+
+        for(var i=0; i<=v.length; i++){
+            v[i].style.fontFamily="Verdana"
+            v[i].style.fontSize="Larger"
+            v[i].style.backgroundColor="lightgreen"
+            v[i].style.border="2px solid black"
+            v[i].style.padding="12px"
+            v[i].style.listStyleType="None"
+            v[i].style.margin="10px"
+        }
+    </script>
+</body>
+</html>
