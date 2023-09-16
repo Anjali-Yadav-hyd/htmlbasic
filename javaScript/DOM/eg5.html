@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>queryselector and queryselectorAll</title>
+</head>
+<body>
+    <div id="id1">
+        <p>Java is easy PL.</p>
+    </div>
+
+    <div id="id1">
+        <p>Python is easy PL.</p>
+    </div>
+
+    <div id="id1">
+        <p>JavaScript is easy PL.</p>
+    </div>
+
+    <div id="id1">
+        <p>GoEasy is easy PL.</p>
+    </div>
+
+    <ul>
+        <li class="list1">ListOne</li>
+        <li class="list1">ListTwo</li>
+        <li class="list1">ListThree</li>
+        <li class="list1">ListFour</li>
+    </ul>
+
+    <div>
+        <p class="c1">ClassOne</p>
+        <p class="c1">ClassTwo</p>
+        <p class="c1">ClassThree</p>
+        <p class="c1">ClassFour</p>
+    </div>
+    <script>
+        var v1 = document.querySelector("#id1")
+        v1.style.backgroundColor = 'skyblue'
+
+        var v2 = document.querySelectorAll("#id1")
+        v1.style.backgroundColor = 'blue'
+
+        var l3 = document.querySelector(".list1")
+        l3.style.color = 'red'
+
+
+
+    </script>
+
+</body>
+</html>
